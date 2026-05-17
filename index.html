@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oberg.dk</title>
+    <style>
+        :root {
+            --bg-color: #121214;
+            --text-color: #e1e1e6;
+            --text-secondary: #a8a8b3;
+            --accent-color: #0077b5; /* LinkedIn Blå */
+            --accent-hover: #005a87;
+            --card-bg: #1e1e24;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            text-align: center;
+            background-color: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 100%;
+            border: 1px solid #29292e;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 2rem;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .btn {
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: var(--accent-color);
+            border-radius: 6px;
+            font-weight: 500;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #737380;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Oberg.dk</h1>
+        <p>Velkommen. Siden her er under udarbejdelse, men du kan finde min professionelle profil på linket nedenfor.</p>
+        
+        <div class="links">
+            <!-- Erstat med dit faktiske LinkedIn URL -->
+            <a href="https://www.linkedin.com/in/DIT-BRUGERNAVN" target="_blank" rel="noopener noreferrer" class="btn">
+                Find mig på LinkedIn
+            </a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 oberg.dk
+        </div>
+    </div>
+
+</body>
+</html>
